@@ -37,8 +37,8 @@ Study_HS = {"Programming" : 10, "Math" : 8, "English" : 4, "History" : 3}
 Contact ={"Mom" : "704-55-0199", "Roomate" : "336-55-7821", "Academic Advisor" : "336-334-5000"}
 
 #Variable to make Calculations less death inducing
-numCourse_credits = Course_credits["COMP 163"] + Course_credits["MATH 150"] + Course_credits["ENG 101"] + Course_credits["HIS 105"]
-avg_gpa = float((Semester_GPA[0] + Semester_GPA[1] + Semester_GPA[2] + Semester_GPA[3]) / len(Current_course))
+numCourse_credits = Course_credits["COMP 163"] + Course_credits["MATH 341"] + Course_credits["ECEN 101"] + Course_credits["PHYS 242"] + Course_credits["PHYS 252"]
+avg_gpa = float((Semester_GPA[0] + Semester_GPA[1] + Semester_GPA[2]) / len(Semester_GPA))
 numStudy_hours = Study_HS["Programming"] + Study_HS["Math"] + Study_HS["English"] + Study_HS["History"]
 monthbudget = Monthly_budget["Food"] + Monthly_budget["Entertainment"] + Monthly_budget["Books"] + Monthly_budget["Transportation"]
 numBookcost = Monthly_budget["Books"]
@@ -93,9 +93,10 @@ print("")
 
 print("Current Courses:")
 print(f"{Current_course[0]} - {Credit_hours[0]} credits - {Course_professors["COMP 163"]} - {Course_room["COMP 163"]}")
-print(f"{Current_course[1]} - {Credit_hours[1]} credits - {Course_professors["MATH 150"]} - {Course_room["MATH 150"]}")
-print(f"{Current_course[2]} - {Credit_hours[2]} credits - {Course_professors["ENG 101"]} - {Course_room["ENG 101"]}")
-print(f"{Current_course[3]} - {Credit_hours[3]} credits - {Course_professors["HIS 105"]} - {Course_room["HIS 105"]}")
+print(f"{Current_course[1]} - {Credit_hours[1]} credits - {Course_professors["MATH 341"]} - {Course_room["MATH 341"]}")
+print(f"{Current_course[2]} - {Credit_hours[2]} credits - {Course_professors["ECEN 101"]} - {Course_room["ECEN 101"]}")
+print(f"{Current_course[3]} - {Credit_hours[3]} credits - {Course_professors["PHYS 242"]} - {Course_room["PHYS 242"]}")
+print(f"{Current_course[4]} - {Credit_hours[4]} credits - {Course_professors["PHYS 252"]} - {Course_room["PHYS 252"]}")
 #easy peasy
 print("")
 
