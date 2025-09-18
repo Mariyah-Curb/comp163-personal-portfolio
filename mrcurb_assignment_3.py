@@ -1,9 +1,9 @@
 #Declare the first bit of information using strings
-Full_name = "Jordan Smith"
-Stu_email = "jsmith@ncat.edu"
+Full_name = "Mariyah Curb"
+Stu_email = "mrcurb@ncat.edu"
 Stu_hometome = "Charlotte, NC"
 Grad_year = "Spring 2028"
-Stu_major = "Computer Science"
+Stu_major = "Computer Engineering"
 
 #organize academic info using list
 Current_course = ['COMP 163','MATH 150','ENG 101','HIS 105']
