@@ -6,11 +6,11 @@ Grad_year = "Spring 2028"
 Stu_major = "Computer Engineering"
 
 #organize academic info using list
-Current_course = ['COMP 163','MATH 150','ENG 101','HIS 105']
-Credit_hours = [3,3,3,3]
-Semester_GPA = [3.2,3.6,3.4,3.7]
+Current_course = ['COMP 163','MATH 341','ECEN 101','PHYS 242', 'PHYS 252']
+Credit_hours = [3,3,3,3,1]
+Semester_GPA = [2.96,2.96,4.00]
 #make sure to keep these values floated
-Finished_courses = ['Biology','Chemistry','Calculus','Spanish II','World History']
+Finished_courses = ['Physic I','Chemistry','Calculus','Spanish II','World History']
 
 #Using Tuples gather contact information
 Emer_Contact = ("Mom", "Hannah Smith","704-555-0199")
@@ -28,11 +28,11 @@ Sad_things = {'One Piece','Barry','Life',"Incantation","Momento"}
 #Both one piece and life bring me to tears because they both lowkey suck 
 
 #You know the drill but for DICTIONARIES now
-Course_credits = {"COMP 163" : 3,"MATH 150" : 3,"ENG 101" : 3,"HIS 105" : 3}
+Course_credits = {"COMP 163" : 3,"MATH 341" : 3,"ECEN 101" : 3,"PHYS 242" : 3,"PHYS 252" : 1}
 numCourses = len(Current_course)
-Course_professors = {"COMP 163" : "Prof. Rhodes","MATH 150" : "Dr. Lee","ENG 101" : "Dr. Martinez","HIS 105" : "Dr. Brown"}
-Course_room = {"COMP 163" : "M-Eric 300","MATH 150" : "Marteena 201","ENG 101" : "Crosby 121","HIS 105" : "Crosby 210"}
-Monthly_budget = {"Food" : 450, "Entertainment" : 200, "Books" : 125, "Transportation" : 100}
+Course_professors = {"COMP 163" : "Prof. Rhodes","MATH 341" : "Dr. Zack","ECEN 101" : "Dr. Horne","PHYS 242" : "Dr. seo", "PHYS 252" : "Dr. Traghuer"}
+Course_room = {"COMP 163" : "M-Eric 300","MATH 341" : "Distance Learning","ECEN 101" : "McNair 121","PHYS 242" : "Marteena 322", "PHYS 252" : "Marteena 319"}
+Monthly_budget = {"Food" : 100, "Entertainment" : 50, "Books" : 260, "Transportation" : 50}
 Study_HS = {"Programming" : 10, "Math" : 8, "English" : 4, "History" : 3}
 Contact ={"Mom" : "704-55-0199", "Roomate" : "336-55-7821", "Academic Advisor" : "336-334-5000"}
 
