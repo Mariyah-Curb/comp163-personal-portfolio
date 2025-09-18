@@ -1,44 +1,44 @@
 #Declare the first bit of information using strings
-Full_name = "Mariyah Curb"
-Stu_email = "mrcurb@ncat.edu"
+Full_name = "Jordan Smith"
+Stu_email = "jsmith@ncat.edu"
 Stu_hometome = "Charlotte, NC"
 Grad_year = "Spring 2028"
-Stu_major = "Computer Engineering"
+Stu_major = "Computer Science"
 
 #organize academic info using list
-Current_course = ['COMP 163','MATH 341','ECEN 101','PHYS 242', 'PHYS 252']
-Credit_hours = [3,3,3,3,1]
-Semester_GPA = [2.96,2.96,4.00]
+Current_course = ['COMP 163','MATH 150','ENG 101','HIS 105']
+Credit_hours = [3,3,3,3]
+Semester_GPA = [3.2,3.6,3.4,3.7]
 #make sure to keep these values floated
-Finished_courses = ['Physic I','Chemistry','Calculus','Spanish II','World History']
+Finished_courses = ['Biology','Chemistry','Calculus','Spanish II','World History']
 
 #Using Tuples gather contact information
-Emer_Contact = ("Mom", "Takara Curb","704-555-0199")
-Address = ('3126 Maury Street','Charlotte','NC',"28202")
-Insta = ('Instagram','@Iz_Me_Mc',481)
-Twitter = ('Twitter','@ilikechickenandwaffles',0)
-B_Day = ("Birthday",'10','19','2006')
+Emer_Contact = ("Mom", "Hannah Smith","704-555-0199")
+Address = ('456 Oak Street','Charlotte','NC',"28202")
+Insta = ('Instagram','@jordan_codes',312)
+Twitter = ('Twitter','@jordandev',127)
+B_Day = ("Birthday",'5','22','2006')
 
 #Do the same thing but ur using SETs now :)
-Current_skills = {'Python basics','HTML','Problem solving','Time management','Painting'}
-Dream_skills = {'JavaScript','Data structures','Git','Web design','Charismatic'}
-Dream_career = {'Software development','Robotics Engineer','Mechatronics engineer','Game development'}
-Hobbies = {'Gaming','Painting','Reading','Sleeping','Music'}
-Sad_things = {'My Hero Academia','Hello Kitty','Food',"Steam deck","Frogs"}
-
+Current_skills = {'Python basics','HTML','Problem solving','Time management','Photography'}
+Dream_skills = {'JavaScript','Data structures','Git','Web design','Public speaking'}
+Dream_career = {'Software development','Web development','Data science','Game development'}
+Hobbies = {'Gaming','Photography','Reading','Soccer','Music'}
+Sad_things = {'One Piece','Barry','Life',"Incantation","Momento"}
+#Both one piece and life bring me to tears because they both lowkey suck 
 
 #You know the drill but for DICTIONARIES now
-Course_credits = {"COMP 163" : 3,"MATH 341" : 3,"ECEN 101" : 3,"PHYS 242" : 3,"PHYS 252" : 1}
+Course_credits = {"COMP 163" : 3,"MATH 150" : 3,"ENG 101" : 3,"HIS 105" : 3}
 numCourses = len(Current_course)
-Course_professors = {"COMP 163" : "Prof. Rhodes","MATH 341" : "Dr. Zack","ECEN 101" : "Dr. Horne","PHYS 242" : "Dr. seo", "PHYS 252" : "Dr. Traghuer"}
-Course_room = {"COMP 163" : "M-Eric 300","MATH 341" : "Distance Learning","ECEN 101" : "McNair 121","PHYS 242" : "Marteena 322", "PHYS 252" : "Marteena 319"}
-Monthly_budget = {"Food" : 100, "Entertainment" : 50, "Books" : 260, "Transportation" : 50}
+Course_professors = {"COMP 163" : "Prof. Rhodes","MATH 150" : "Dr. Lee","ENG 101" : "Dr. Martinez","HIS 105" : "Dr. Brown"}
+Course_room = {"COMP 163" : "M-Eric 300","MATH 150" : "Marteena 201","ENG 101" : "Crosby 121","HIS 105" : "Crosby 210"}
+Monthly_budget = {"Food" : 450, "Entertainment" : 200, "Books" : 125, "Transportation" : 100}
 Study_HS = {"Programming" : 10, "Math" : 8, "English" : 4, "History" : 3}
 Contact ={"Mom" : "704-55-0199", "Roomate" : "336-55-7821", "Academic Advisor" : "336-334-5000"}
 
 #Variable to make Calculations less death inducing
-numCourse_credits = Course_credits["COMP 163"] + Course_credits["MATH 341"] + Course_credits["ECEN 101"] + Course_credits["PHYS 242"] + Course_credits["PHYS 252"]
-avg_gpa = float((Semester_GPA[0] + Semester_GPA[1] + Semester_GPA[2]) / len(Semester_GPA))
+numCourse_credits = Course_credits["COMP 163"] + Course_credits["MATH 150"] + Course_credits["ENG 101"] + Course_credits["HIS 105"]
+avg_gpa = float((Semester_GPA[0] + Semester_GPA[1] + Semester_GPA[2] + Semester_GPA[3]) / len(Current_course))
 numStudy_hours = Study_HS["Programming"] + Study_HS["Math"] + Study_HS["English"] + Study_HS["History"]
 monthbudget = Monthly_budget["Food"] + Monthly_budget["Entertainment"] + Monthly_budget["Books"] + Monthly_budget["Transportation"]
 numBookcost = Monthly_budget["Books"]
@@ -93,10 +93,9 @@ print("")
 
 print("Current Courses:")
 print(f"{Current_course[0]} - {Credit_hours[0]} credits - {Course_professors["COMP 163"]} - {Course_room["COMP 163"]}")
-print(f"{Current_course[1]} - {Credit_hours[1]} credits - {Course_professors["MATH 341"]} - {Course_room["MATH 341"]}")
-print(f"{Current_course[2]} - {Credit_hours[2]} credits - {Course_professors["ECEN 101"]} - {Course_room["ECEN 101"]}")
-print(f"{Current_course[3]} - {Credit_hours[3]} credits - {Course_professors["PHYS 242"]} - {Course_room["PHYS 242"]}")
-print(f"{Current_course[4]} - {Credit_hours[4]} credits - {Course_professors["PHYS 252"]} - {Course_room["PHYS 252"]}")
+print(f"{Current_course[1]} - {Credit_hours[1]} credits - {Course_professors["MATH 150"]} - {Course_room["MATH 150"]}")
+print(f"{Current_course[2]} - {Credit_hours[2]} credits - {Course_professors["ENG 101"]} - {Course_room["ENG 101"]}")
+print(f"{Current_course[3]} - {Credit_hours[3]} credits - {Course_professors["HIS 105"]} - {Course_room["HIS 105"]}")
 #easy peasy
 print("")
 
@@ -133,4 +132,3 @@ print(f"Entertainment Backlog: {len(Sad_things)} items")
 print(f"Current Hobbies: {len(Hobbies)} activities")
 
 print("================================================================")
-
