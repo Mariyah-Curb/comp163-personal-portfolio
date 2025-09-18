@@ -20,11 +20,11 @@ Twitter = ('Twitter','@jordandev',127)
 B_Day = ("Birthday",'5','22','2006')
 
 #Do the same thing but ur using SETs now :)
-Current_skills = {'Python basics','HTML','Problem solving','Time management','Photography'}
-Dream_skills = {'JavaScript','Data structures','Git','Web design','Public speaking'}
-Dream_career = {'Software development','Web development','Data science','Game development'}
-Hobbies = {'Gaming','Photography','Reading','Soccer','Music'}
-Sad_things = {'One Piece','Barry','Life',"Incantation","Momento"}
+Current_skills = {'Python basics','HTML','Problem solving','Time management','Painting'}
+Dream_skills = {'JavaScript','Data structures','Git','Web design','Charismatic'}
+Dream_career = {'Software development','Robotics Engineer','Mechatronics engineer','Game development'}
+Hobbies = {'Gaming','Painting','Reading','Sleeping','Music'}
+Sad_things = {'My Hero Academia','Hello Kitty','Food',"Steam deck","Frogs"}
 #Both one piece and life bring me to tears because they both lowkey suck 
 
 #You know the drill but for DICTIONARIES now
