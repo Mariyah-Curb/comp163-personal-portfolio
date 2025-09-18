@@ -13,11 +13,11 @@ Semester_GPA = [2.96,2.96,4.00]
 Finished_courses = ['Physic I','Chemistry','Calculus','Spanish II','World History']
 
 #Using Tuples gather contact information
-Emer_Contact = ("Mom", "Hannah Smith","704-555-0199")
-Address = ('456 Oak Street','Charlotte','NC',"28202")
-Insta = ('Instagram','@jordan_codes',312)
-Twitter = ('Twitter','@jordandev',127)
-B_Day = ("Birthday",'5','22','2006')
+Emer_Contact = ("Mom", "Takara Curb","704-555-0199")
+Address = ('3126 Maury Street','Charlotte','NC',"28202")
+Insta = ('Instagram','@Iz_Me_Mc',481)
+Twitter = ('Twitter','@ilikechickenandwaffles',0)
+B_Day = ("Birthday",'10','19','2006')
 
 #Do the same thing but ur using SETs now :)
 Current_skills = {'Python basics','HTML','Problem solving','Time management','Painting'}
